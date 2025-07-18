@@ -1,0 +1,192 @@
+15th July
+=========
+
+    -> Java Backend
+
+        -> Core Java ( Language Fundamentals ) - 60% 
+
+        -> Advance Java ( MT, EH, Collections Framework, SQL, RDBMS ) - 20%
+
+        -> Spring Framework / Spring Boot (API's - Micro Services) - 20%
+
+    -> Java 
+
+        -> Programming Language
+
+    -> Language ?
+
+            -> Communication (Verbal, Written, Gestures etc)
+
+            -> Languages Constructed ?
+
+                -> Regions (South India - North India etc)
+
+            -> Human to Human (English, Hindi, Telugu etc)
+
+    -> Programming ?
+
+        -> Set Of Rules / Instructions
+
+            -> TASK 
+
+    -> Programming Language
+
+        -> Set Of Instructions To Perform TASK
+
+    -> Javascript, Java, Python, C etc
+
+    -> Based On Domains 
+
+    -> Java vs Python 
+
+        -> Java is performance oriented (FASTEST) --> COMPILED 
+
+        -> Python is performance oriented (FAST) --> INTERPRETED
+
+        -> Build An Application (Java -> 6 Months)  (Run Faster)
+        -> Build An Python      (Python -> 6 Weeks) (Develop Faster)
+    
+    -> How Many ways you can Perform a TASK(Programming) ?
+
+        -> Programming paradigms are fundamental styles or approaches used 
+            in computer programming to solve problems.
+
+        -> Imperative Programming Language
+
+            -> How To Do 
+
+            -> Java is Imperative Programming Language
+
+        -> Declarative Programming Language
+
+            -> What To Do 
+
+            -> SQL is Declarative Programming Language
+
+        -> High Level
+
+        -> Low Level
+
+            01101010 01100001 01110110 01100001 00100000 01101001 
+            01110011 00100000 01100010 01100101 01110011 01110100
+
+        -> Myntra Application
+
+            brandName = The Indian Garage Co
+            ratings = 4.2
+            price = 750
+            size = 36
+
+            System.out.println(" The Brand is "+brandName+ " has ratings"+ratings)
+
+            -> On the Object Level
+
+            -> Object -> Screen, Table,  
+
+16th July
+=========
+
+    -> Install Java (21 LTS)
+
+    -> Install VS Code (IDE - Integrated Development Environment)
+
+    -> GitHub (Platform To Store Code and Collaborate)
+
+    -> Git (Client To Enable Tracking)
+
+    -> Version Control / Source Control / Revision Control
+
+        -> Keep Track Of Changes(Programs, Website files, any file)
+
+    -> Install Git On Your Laptop  
+
+    -> Setup GitHub Account
+
+17th July
+=========
+
+    -> Java Compiler (javac)
+
+    -> Java Interprter (java)
+
+    -> JVM - JRE - JDK
+
+        -> JVM - Java Virtual Machine
+
+            -> Converts Byte Code To Machine Code
+
+            -> Java Platform Independent (JVM)
+
+        
+        -> JRE - Java Runtime Environment
+
+            -> In Servers we use JRE 
+
+            -> JRE is used to RUN JAVA PROGRAMS / APPS
+
+            -> JRE is NOT used to DEVELOP JAVA PROGRAMS / APPS
+
+        -> JDK - Java Development Kit
+
+            -> In Developer Laptops we use JDK
+
+            -> JDK Contains various utilities to Develop & Run Java Programs
+
+    -> W.R.T Hello World Program (App.java)
+
+        -> JDK : You Write Java Code Using JDK Tools (java)
+
+        -> JRE : You Compile Java Code Using JRE (javac)
+
+        -> JVM : Reads .class file i.e Byte Code and Gives it to OS for execution
+
+18th July
+=========
+
+    -> Variables
+
+        -> Store the values ?
+
+            -> To retrieve data 
+            -> To perform some operations on data
+            -> To Store data
+
+        -> brand
+        -> description
+        -> ratings
+        -> price 
+
+        -> Data you want to store, you need to specify data type
+            -> above approach is called as Static Typed/Strict Typed
+
+        -> Data Type is classification of data
+
+            -> Primitive Data types 
+
+                -> Fundamental data types, which are prebuilt to store numbers, decimals,
+                    characters, symobols, true and false
+
+                        -> byte
+                        -> short
+                        -> int
+                        -> long
+                        -> float
+                        -> double
+                        -> char
+                        -> boolean
+
+
+            -> Non-Primitive Data types
+
+                -> Either we can use already defined by java, Strings, Arrays, Collections, Interfaces etc
+
+                -> As a user you can create your own data types as well
+                    Student, Employee, Company etc  
+    
+    -> NOTE : The local variable someDataNew2 may not have been initialized
+
+    -> We have Instance Variables, Local Variables & Satic Variables 
+
+        -> For any kind of Variables we work with, we need to specify Datatype
+
+    -> Based on the data type we select, default values are applicable
