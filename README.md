@@ -1,2 +1,2 @@
 # java-2501
-java practice
+Java Crash course
