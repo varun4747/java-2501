@@ -1,3 +1,4 @@
+package operatorsPrograms;
 public class CarEmiCalculation {
     public static void main(String[] args) {
         // Calculate EMI of Mahindra Scorpio Car
