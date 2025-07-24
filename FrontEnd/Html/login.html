@@ -4,17 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: blue;
+        }
+
+        form{
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input{
+            width: 100px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-    <h1>Continue to Login</h1>
-       <nav>
-           <ul>
-               <li><a href="Index.html">Home</a></li>
-               <!-- <li><a href="login.html">Login</a></li> -->
-               
-           </ul>
-       </nav>
-   </header>
+   
+       <div>
+        <h1>Registration form</h1>
+        <div>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required><br>
+
+                <label for="mobile">Mobile no:</label>
+                <input type="number" id="mobile" name="mobile" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <select>
+                    <option value="select">Select language</option>
+                    <option value="c">C</option>
+                    <option value="python">Python</option>
+                    <option value="java">Java</option>
+                </select><br>
+
+                <button type="submit">register</button>
+            </form>
+        </div>
+       </div>
+   
 </body>
 </html>

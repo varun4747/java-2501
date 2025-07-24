@@ -357,3 +357,57 @@
 
     }
 }
+
+
+
+
+
+24th July
+=========
+
+Control Structures / Statements
+control statements allow you to dictate the order in which statements are executed and enable decisions, loops, and branching. 
+
+There are three main categories of control statements in Java:
+Decision-Making Statements (Conditional statements)
+Looping Statements (Iteration statements)
+Branching Statements (Jump statements)
+Types of Conditional Statements in Java
+if statement: Runs a block of code if the condition is true.
+if-else statement: Runs one block of code if the condition is true, and another block of code if it’s false.
+else if ladder: Allows checking multiple conditions in sequence.
+switch statement: An alternative to if-else when you have multiple possible conditions for a single variable.
+
+
+
+
+
+
+Project Based - LMS - 3 (TASK)
+Assessment Task: Tuition Discount Calculation in Java
+Task Requirements:
+Variables:
+Define variables to store:
+Student's grade level (1-12)
+Base tuition fee 
+Discount percentage 
+Academic Topper status (e.g., whether the student is an academic topper or not, using a boolean).
+Use Conditional statements to determine the discount based on the following rules:
+For students in grades 9 to 12:
+If they are academic toppers, apply a 20% discount.
+Otherwise, apply a 10% discount.
+For students in grades 6 to 8, apply a 5% discount.
+For grades below 6, apply no discount.
+apply additional discounts:
+For grade 10, add an additional 3% discount.
+For grade 12, add an additional 5% discount.
+No additional discounts for other grades.
+Calculation:
+Calculate the final tuition fee after applying the discount:
+discountedFee = tuitionFee - (tuitionFee * discount)
+Output:
+Print the following information:
+Student's grade level
+Base tuition fee
+Total discount percentage
+Tuition fee after the discount
