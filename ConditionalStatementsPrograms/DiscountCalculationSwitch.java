@@ -1,4 +1,5 @@
 package ConditionalStatementsPrograms;
+
 public class DiscountCalculationSwitch {
     public static void main(String[] args) {
         byte studentGrade = 12;
@@ -11,7 +12,7 @@ public class DiscountCalculationSwitch {
             case 10:
             case 11:
             case 12:
-                if (isAcademicTopper) {     
+                if (isAcademicTopper) {
                     studentDiscountPercentage = 20f;
                 } else {
                     studentDiscountPercentage = 10f;
@@ -24,19 +25,19 @@ public class DiscountCalculationSwitch {
                 }
                 break;
 
-                case 6:
-                case 7:
-                case 8:
-                    studentDiscountPercentage = 5f;
-                    break;
+            case 6:
+            case 7:
+            case 8:
+                studentDiscountPercentage = 5f;
+                break;
             default:
-            if(studentGrade < 6) {
-                studentDiscountPercentage = 0f;
-            } else {
-                System.out.println("Invalid grade entered.");
-                return;
+                if (studentGrade < 6) {
+                    studentDiscountPercentage = 0f;
+                } else {
+                    System.out.println("Invalid grade entered.");
+                    return;
 
-            }
+                }
                 break;
 
         }

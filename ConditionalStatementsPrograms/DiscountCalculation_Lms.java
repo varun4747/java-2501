@@ -1,4 +1,5 @@
 package ConditionalStatementsPrograms;
+
 public class DiscountCalculation_Lms {
     public static void main(String[] args) {
         byte studentGrade = 12;
@@ -24,7 +25,7 @@ public class DiscountCalculation_Lms {
             studentDiscountPercentage += 3f;
         } else if (studentGrade == 12) {
             studentDiscountPercentage += 5f;
-        }else{
+        } else {
             System.out.println("Invalid grade entered.");
             return;
         }
