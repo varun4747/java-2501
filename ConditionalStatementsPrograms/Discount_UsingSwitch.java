@@ -1,6 +1,6 @@
 package ConditionalStatementsPrograms;
 
-public class DiscountCalculationSwitch {
+public class Discount_UsingSwitch {
     public static void main(String[] args) {
         byte studentGrade = 12;
         int studentTutionFee = 100000;

@@ -1,6 +1,6 @@
 package ConditionalStatementsPrograms;
 
-public class DiscountCalculation_Lms {
+public class Discount_UsingIfElse {
     public static void main(String[] args) {
         byte studentGrade = 12;
         int studentTutionFee = 100000;
