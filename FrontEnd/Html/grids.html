@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Grid + Flex Layout</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* body {
+      font-family: sans-serif;
+      background: #f5f5f5;
+      padding: 20px;
+      height: 100vh;
+    } */
+
+    .container {
+      display: grid;
+      grid-template-rows: auto auto auto;
+      grid-template-columns: 200px 1fr 300px;
+      gap: 10px;
+      height: 100%;
+    }
+
+    header {
+      grid-column: 1 / span 3;
+      background: aquamarine;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 2px solid rgba(9, 0, 0, 0.472);
+    }
+
+    .brand {
+      font-size: 24px;
+      font-weight: bold;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: rgba(51, 51, 198, 0.831);
+      height: 50px;
+    }
+
+
+    .top-nav {
+      grid-column: 1 / span 3;
+      background: rgba(76, 240, 246, 0.611);
+      padding: 5px 5px;
+      border: 1px solid rgb(4, 4, 86);
+      
+     
+    }
+    img {
+      width: 200px;
+      height:100px;
+     
+    }
+
+    .sidebar {
+      background: rgb(108, 223, 215);
+      border: 2px solid #d33;
+      padding: 10px;
+      height: 400px;
+    }
+
+    .sidebar ul {
+      list-style: none;
+    }
+
+    .sidebar li {
+      margin-bottom: 15px;
+      color: #d33;
+      border: 2px solid rgb(207, 39, 67);
+      text-align: center;
+        padding: 10px;
+        margin: 50px;
+    }
+
+    .main {
+      background: rgba(188, 230, 117, 0.231);
+      padding: 20px;
+      border: 1px solid #ccc;
+      height: 400px;
+      font-weight: bold;
+      font-family: 'Courier New', Courier, monospace;
+      justify-items:center ;
+    }
+
+    .right-panel {
+      background: white;
+      padding: 20px;
+      border: 1px solid #ccc;
+      height: 400px;
+    }
+
+    footer {
+      grid-column: 1 / span 3;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-top: 5px;
+    }
+
+    .footer-box {
+      background: rgb(124, 115, 151);
+      padding: 15px;
+      color: #d33;
+      border: 1px solid #ccc;
+    }
+
+    nav a {
+      margin-left: 20px;
+      color: rgb(3, 17, 172);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    
+    <header>
+      <div class="brand">Brand</div>
+      <nav>
+        <a href="#">Trainer</a>
+        <a href="#">Signin</a>
+        <a href="#">Signup</a>
+      </nav>
+    </header>
+
+
+    <div class="top-nav">
+        <marquee><img src="img2.avif"></marquee></div>
+        <!-- <marquee><img src="img2.avif"></marquee></div>
+        <marquee><img src="img2.avif"></marquee></div>
+        <marquee><img src="img2.avif"></marquee></div>
+         -->
+    <div class="sidebar">
+      <ul>
+        <li>Side 1</li>
+        <li>Side 2</li>
+        <li>Side 3</li>
+        <li>Side 4</li>
+        <li>Side 5</li>
+      </ul>
+    </div>
+
+    
+    <div class="main">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque officia harum earum fuga totam ea, autem incidunt perferendis tenetur fugit repellat in asperiores maiores, laudantium vel adipisci sit doloribus labore, eveniet consequatur quia qui? Eum enim esse, rem sapiente numquam voluptate velit officia? Explicabo nemo reiciendis asperiores similique, deserunt quo? Ducimus minus iste vitae facere atque velit, aliquam, quod, earum ad culpa enim autem! Distinctio facilis provident expedita. Eveniet optio qui, omnis sed reprehenderit vero repellendus dolores possimus praesentium, a suscipit neque nemo vitae repellat! Tempora quo recusandae accusantium, iure maxime assumenda natus ratione similique quas id et eaque cumque.</div>
+
+    
+    <div class="right-panel">Right Panel</div>
+
+   
+    <footer>
+      <div class="footer-box">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem hic deserunt, in sequi reprehenderit voluptate aliquid molestias non, doloribus, ipsum dolorum ullam. Nam officia sequi, provident qui eos sit est!</div>
+      <div class="footer-box">Box 2</div>
+      <div class="footer-box">Box 3</div>
+    </footer>
+  </div>
+
+</body>
+</html>
