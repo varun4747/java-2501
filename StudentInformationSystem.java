@@ -1,4 +1,6 @@
 import java.util.Scanner;
+
+import studentLMS.Student;
 public class StudentInformationSystem {
     public static void main(String[] args) {
 

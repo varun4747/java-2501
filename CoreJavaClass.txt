@@ -553,4 +553,91 @@ Tuition fee after the discount
             -> accessModifier static/non-static returnType/void methodName (parametersList) throws ExceptionsList{
                 // method body
                 return value;
-            }        
+            }    
+
+
+
+
+31th July
+=========
+
+    -> LMS With Classes, Objects & Methods.
+
+
+1st Aug
+=======
+
+-> Constructors
+
+-> Method - Block of code that performs some TASK
+
+-> Constructor - Block of code that performs OBJECT initialization
+
+    -> Constructor is a special method, that initializes newly
+        created objects
+
+    -> Method is called, after creating object
+        -> Explicitly call method
+
+    -> Constructor is called, at the time of object creation
+        -> Implicitly called, while object is being created
+
+    -> Constructors will not have any return type, not even void
+
+    -> method name can be your choice, but Constructor name should
+        be class name only    
+
+    -> Default Constructor
+
+        public ConstructorDemo(){    
+        
+        }
+
+    -> Parameterized Constructor
+        
+        public ConstructorDemo(datatype parametersNames, ...){    
+        
+        }
+    
+    -> this - keyword refers to current instance of class
+
+4th Aug
+=======
+
+-> Constructor Overloading
+
+    -> Having Multiple Constructors(for different types of
+    initializations), with different parameters
+        -> Number of parameters
+        -> Type of parameters
+        -> Order of parameters
+    
+    -> Constructor() {
+
+       }
+    
+    -> Constructor(int a, int b) {
+
+       }
+
+    -> Constructor(int a, int b, int c) {
+
+       }
+    
+    -> Constructor(double a, double b) {
+
+       }
+    
+    -> Constructor(int a, double b) {
+
+       }
+
+    -> Constructor(double a, int b) {
+
+       }
+    
+-> this() - Constructor call
+
+    -> Used to call a Constructor inside another Constructor
+
+-> NOTE : this is keyword, used to refer current instance                
