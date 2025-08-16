@@ -749,3 +749,157 @@ Tuition fee after the discount
 
     -> LMS App With Strings.
 
+11th Aug
+=======
+
+-> Static vs Non-Static 
+
+    -> First We need to be clear with Classes & Object
+
+        -> Class - Blue Print Of an Object
+
+            -> Variables, Data types, Constructors, Objects
+
+                -> We can also add Blocks (Static & Non-Static) 
+    
+    -> In Java To Allocate Memory
+
+        -> Using new keyword create an object and memory will be allocated
+
+        -> Using static keyword also memory is allocated
+
+12th Aug
+========
+
+    -> Instances Variables - Done
+    -> Static Variables - Done
+    -> Static Methods - Acts On Static Data
+    -> Instance Methods - Acts On Instance Data
+
+    -> static blocks - To initialize static variables
+
+    -> instance blocks - To initialize non-static variables
+
+    -> Constructors internally call non-static or instance blocks
+
+    -> Main method is the starting point of execution, unless a static block is used
+
+13th Aug
+========
+
+-> OOPS Principles
+
+-> Inheritance
+
+    -> Inheritance allows one class to inherit traits from another class
+
+        -> Inherit Properties(Variables) & Methods
+
+    -> One who inherits is called Child Class
+    -> One who gives the Properties & Methods is called as Parent Class
+
+    -> Child can inherit Parent, but not vice versa
+
+    -> Inheritance is achieved by creating a Relationship between classes
+
+        -> Relationship between classes is done using extends keyword
+
+        -> Child will extends Parent
+
+    -> With Inheritance
+
+        -> Code Reusability
+        -> No Code Duplication i.e No Repeatability
+        -> Project Size is Less as Code is Less
+        -> Code Reliability Increases
+        -> Code Maintainability Improved
+
+    -> Types Of Inheritance
+
+        -> Single Level Inheritance
+
+            -> A class inherits from another single class only
+
+            -> A extends B 
+                A -> B (Guest -> VideoAdmin)
+
+        -> Multi Level Inheritance
+
+            -> A class inherits from another class, which inturn inherits from
+                another class
+
+            -> A extends B and B extends C 
+                A -> B -> C  (Guest -> VideoAdmin -> SuperAdmin)
+
+
+        -> Hierarchal Level Inheritance
+
+            -> Multiple Classes Inherit from Same Super Class
+
+                       A
+
+                B   C     D   E
+
+                                Guest 
+
+            -> VideoAdmin -> ContentReviewer -> Teacher
+
+        -> Multiple Inheritance
+
+            -> One Class inherits from two or more classes (NOT OK)
+
+            -> One Class inherits from two or more Interfaces (OK)
+
+            -> Multiple Inheritance is not supported with Classes
+
+            -> Multiple Inheritance is supported with Interfaces
+
+                -> Classes - A class is a Blueprint for an object
+                -> Interfaces - An interface is a Blueprint for a class
+                -> Interfaces have special methods we call them as abstract methods
+
+                    -> Concrete Methods - Concrete methods have implementation
+
+                    -> Abstract Methods - Abstract methods don't have implementation
+
+                -> When Working with Interfaces, we use keyword implements 
+
+        -> Hybrid Level Inheritance
+
+            -> Combination of at least two types of Inheritance
+                 Single + Multiple or Multilevel
+
+                        A
+                    B       C
+                        D
+
+14th Aug
+========  
+
+    -> super keyword, is used to refer the parent class members
+
+        -> methods, variables, constructors 
+        -> differentiate between members of subclass and members with
+        same name in super class
+        
+15th Aug
+========
+
+-> Access Modifiers
+
+    -> These are keywords, which controls visibility of class members
+
+    -> If we get an understanding of Access Modifiers, Encapsulation will be easy
+        to understand.
+
+    -> We Have Following Access Modifiers
+
+        -> Public
+        -> Private
+        -> Protected
+        -> Default
+
+    -> NOTE : If you understand access modifiers will using variables, the same concept
+        is extends to other members as well, with only slight difference for Classes
+            (Mainly for top level classes)
+            -> Top level classes only support public and default
